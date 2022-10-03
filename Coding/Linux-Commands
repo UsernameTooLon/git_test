@@ -1,0 +1,56 @@
+USEFUL LINUX COMMANDS
+Use [--help] after the command for more options
+Use [man] before the command to read the command's manual
+
+Special
+[..] directory above 
+[.] current working directory
+[~] home directory
+[-] previous working directory
+
+ls
+prints a list of the files and directories in the current location
+[-F] denotes different types of files/folders with a symbol
+
+pwd
+prints the current working directory
+
+clear
+Clears the terminal
+
+nano [path]
+Opens the specified text file (or creates a new one if it doesn't already exist) inside Terminal text editor
+
+touch [path]
+Creates a file with the specified name
+
+mkdir [path]
+Creates the specified dir
+
+rm [path]
+Removes specified file
+
+mv [old] [new]
+Used to move files from the first filepath to the next and also used to rename files
+This also works on dirs and will overwrite anything that already exists with the filename given
+[-i] will make mv ask for confirmation before it does this (safer)
+
+cp [old] [new]
+Copies a file
+
+xdg-open [path]
+Opens the file in its default application
+
+cd
+On its own, changes to home directory (/home/dan)
+
+cat [path]
+Prints the contents of the specified file
+
+less [path]
+Prints the contents of the specified file one screen at a time
+SPACEBAR to advance one screen
+B to go back one screen
+Q to quit
+
+
